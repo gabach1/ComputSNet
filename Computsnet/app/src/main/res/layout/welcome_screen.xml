@@ -14,8 +14,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ComputSNet"
-        android:textSize="42sp"
+        android:text="Welcome on ComputSNet!"
+        android:textSize="25sp"
         android:textColor="#E1E1E1"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
