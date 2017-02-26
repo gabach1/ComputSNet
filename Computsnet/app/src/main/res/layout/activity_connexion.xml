@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.computsnet.connexionActivity">
+    tools:context="com.example.user.computsnet.ConnexionActivity">
 
     <TextView
         android:text="ComputSNet"
@@ -30,7 +30,7 @@
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
         android:layout_marginBottom="146dp"
-        android:id="@+id/Sign_In"
+        android:id="@+id/sign_In"
         android:visibility="visible"
         android:elevation="10dp" />
 
@@ -38,10 +38,10 @@
         android:text="Sign Up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Sign_Up"
+        android:id="@+id/sign_Up"
         android:background="#8D6E63"
-        android:layout_alignBaseline="@+id/Sign_In"
-        android:layout_alignBottom="@+id/Sign_In"
+        android:layout_alignBaseline="@+id/sign_In"
+        android:layout_alignBottom="@+id/sign_In"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:visibility="visible"
