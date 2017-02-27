@@ -5,9 +5,34 @@
     android:gravity="center">
 
     <TextView
-        android:text="TextView"
+        android:text="Connexion"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:id="@+id/textPrincAuth"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Pseudo"
+        android:id="@+id/pseudo_signIn" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:id="@+id/mdpasse_signIn" />
+
+    <Button
+        android:text="Connexion"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_signIn" />
+
+
 </LinearLayout>

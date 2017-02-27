@@ -20,7 +20,7 @@ public class ConnexionActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent versIns = new Intent(ConnexionActivity.this, Inscription.class);
+                Intent versIns = new Intent(ConnexionActivity.this, Authentification.class);
                 startActivity(versIns);
             }
         });
@@ -29,7 +29,7 @@ public class ConnexionActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent versAuth = new Intent(ConnexionActivity.this, Authentification.class);
+                Intent versAuth = new Intent(ConnexionActivity.this, Inscription.class);
                 startActivity(versAuth);
             }
         });
