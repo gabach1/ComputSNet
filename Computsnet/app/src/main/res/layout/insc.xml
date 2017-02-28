@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:text="Creer un compte"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPrincIns"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Pseudo"
+        android:id="@+id/pseudo_signUp" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:id="@+id/mdpasse_signUp" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Confirmer Mot de passe"
+        android:id="@+id/confirm_mdpasse_signUp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_signUp" />
+</LinearLayout>
